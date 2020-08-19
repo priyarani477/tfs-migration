@@ -1,0 +1,50 @@
+http://ec2amaz-h1q72rp:8080/tfs/TeamProjCollection1/Team%20Project/_versionControl
+
+git tfs list-remote-branches http://ec2amaz-h1q72rp:8080/tfs/TeamProjCollection1
+
+
+
+
+
+git tfs clone http://ec2amaz-h1q72rp:8080/tfs/TeamProjCollection1 $/testproject/ migration  --deep
+git config --global ec2amaz-h1q72rp:8080/tfs.username Administrator
+git config --global ec2amaz-h1q72rp:8080/tfs.password XOJc$(k;Gkg8W7uA@(SsbG%RsomxHB4y
+
+
+git config --global git-tf.server.username Administrator
+git config --global git-tf.server.password XOJc$(k;Gkg8W7uA@(SsbG%RsomxHB4y
+
+
+$ git tfs clone -l -x -c 17645 --authors=authors.txt\
+"http://mytfsserver:8080/tfs/My%20Project"\
+"$//MyProjectRepo//MyBranch"
+
+
+
+
+
+
+https://github.com/birendersingh03/migration1.git
+
+
+
+
+
+
+working:
+git tfs list-remote-branches http://ec2amaz-h1q72rp:8080/tfs/TeamProjCollection1
+
+
+
+ 115 mkdir proj3
+ 116 cd proj3
+ 117 git tfs clone http://ec2amaz-h1q72rp:8080/tfs/TeamProjCollection1 $"/Team Project/Main" . --branches=none
+ 118 ls
+ 119 git tfs branch --init --all
+ 120 git tfs fetch --all
+ 121 ls
+ 122 git checkout master
+ 123 git remote add origin https://github.com/birendersingh03/migration1.git
+ 124 git push origin -u -all
+ 125 git push origin -u --all
+ 126 git checkout main
